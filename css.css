@@ -1,13 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html {
+  background-image: url(../order-summary-component-main/images/pattern-background-desktop.svg);
+  background-position: center;
+  height: 70vh;
+  background-repeat: no-repeat;
 }
 
-html {
-  color: rgb(228, 15, 15);
-  max-width: 1100;
-  margin: 0 auto;
+body {
+  text-align: center;
 }
 
 .attribution {
@@ -16,8 +15,4 @@ html {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-body {
-  box-sizing: border-box;
 }
