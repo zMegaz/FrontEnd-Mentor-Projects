@@ -8,6 +8,11 @@ html {
 body {
   text-align: center;
 }
+div {
+  font-size: 200%;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
 
 .attribution {
   font-size: 11px;
