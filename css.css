@@ -1,16 +1,26 @@
 html {
-  max-width: 50%;
-  margin: 0 auto;
-  background-image: url(../order-summary-component-main/images/pattern-background-desktop.svg);
+}
+html {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(../order-summary-component-main/images/pattern-background-desktop.svg);
   background-position: center;
   height: 70vh;
   background-repeat: no-repeat;
 }
+img {
+  box-sizing: border-box;
+  border-radius: 10px 10px 0 0;
+}
 body {
+  max-width: 466px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 10px;
   background-color: white;
 }
 .text {
   text-align: center;
+  color: gray;
 }
 
 h2 {
