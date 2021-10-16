@@ -1,17 +1,23 @@
 html {
+  max-width: 50%;
+  margin: 0 auto;
   background-image: url(../order-summary-component-main/images/pattern-background-desktop.svg);
   background-position: center;
   height: 70vh;
   background-repeat: no-repeat;
 }
-
 body {
+  background-color: white;
+}
+.text {
   text-align: center;
 }
-div {
+
+h2 {
   font-size: 200%;
   margin-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
+  text-align: center;
 }
 
 .attribution {
